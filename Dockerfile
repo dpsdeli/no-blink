@@ -33,7 +33,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Expose port
-EXPOSE 80
+EXPOSE 8080
 
 # Start the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"] 
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"] 
